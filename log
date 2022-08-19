@@ -33,3 +33,25 @@ list.c:45:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1: all warnings being treated as errors
 Compilation failed
 e6279c8
+Fri 19 Aug 2022 12:44:13 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:3: error: statement with no effect [-Werror=unused-value]
+   42 |   list n =list->current;
+      |   ^~~~
+list.c:42:7: error: expected ‘;’ before ‘n’
+   42 |   list n =list->current;
+      |       ^~
+      |       ;
+list.c:43:3: error: ‘n’ undeclared (first use in this function)
+   43 |   n = list->head;
+      |   ^
+list.c:43:3: note: each undeclared identifier is reported only once for each function it appears in
+list.c:45:1: error: control reaches end of non-void function [-Werror=return-type]
+   45 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+fba0926

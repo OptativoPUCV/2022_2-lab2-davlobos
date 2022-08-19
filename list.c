@@ -57,6 +57,15 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
+  Node *newnode = createnode(data);
+  if (list->head != NULL){
+    list->head->prev = newnode;
+    newnode->next=list->head;
+    lisy->head=newnode;
+  }else{
+    list->head=newnode;
+    list->tail=newnode;
+  }
   
 }
 

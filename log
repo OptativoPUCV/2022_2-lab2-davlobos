@@ -12,3 +12,9 @@ list.c:33:41: error: expected ‘,’ or ‘;’ before ‘)’ token
       |                                         ^
 Compilation failed
 019b0fa
+Fri 19 Aug 2022 12:33:40 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+334af94

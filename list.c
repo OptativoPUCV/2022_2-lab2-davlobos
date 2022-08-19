@@ -105,8 +105,7 @@ void * popCurrent(List * list) {
     current->prev->next = list->current->next;
     current->next->prev = list->current->prev;
   }
-
-  return current;
+  return NULL;
 }
 
 void cleanList(List * list) {

@@ -80,3 +80,14 @@ list.c:61:9: error: unused variable ‘newnode’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 85d75b5
+Fri 19 Aug 2022 12:53:41 PM UTC: 
+ list.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:18: error: statement with no effect [-Werror=unused-value]
+   42 |     list->current->data;
+      |     ~~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+16d0637

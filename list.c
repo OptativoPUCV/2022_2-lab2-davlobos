@@ -38,9 +38,9 @@ List * createList() {
 }
 
 void * firstList(List * list) {
-  list->current = list->head;
-  list->current->data;
-  return list->current->data;
+    list->current = list->head;
+    list->current->data;
+    return NULL;
 }
 
 void * nextList(List * list) {
@@ -58,7 +58,6 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
-  Node *newnode= createnode(data);
   
 }
 

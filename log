@@ -91,3 +91,12 @@ list.c:42:18: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 16d0637
+Fri 19 Aug 2022 12:53:45 PM UTC: 
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:18: error: statement with no effect [-Werror=unused-value]
+   42 |     list->current->data;
+      |     ~~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+4e91093

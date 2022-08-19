@@ -394,3 +394,16 @@ Fri 19 Aug 2022 03:57:56 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 a6e6952
+Fri 19 Aug 2022 04:03:25 PM UTC: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:107:30: error: expected ‘;’ before ‘}’ token
+  107 |     list->tail= current->prev
+      |                              ^
+      |                              ;
+  108 |   }else{
+      |   ~                           
+Compilation failed
+80360b7

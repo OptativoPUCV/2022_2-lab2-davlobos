@@ -2,3 +2,13 @@ Fri 19 Aug 2022 12:23:31 PM UTC:
  tests:  0|6
 total_score: 0/70
 80a85de
+Fri 19 Aug 2022 12:33:19 PM UTC: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:33:41: error: expected ‘,’ or ‘;’ before ‘)’ token
+   33 |   List* list=(List*)malloc(sizeof(List)));
+      |                                         ^
+Compilation failed
+019b0fa

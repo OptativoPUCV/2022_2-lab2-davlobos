@@ -363,3 +363,17 @@ Fri 19 Aug 2022 03:54:35 PM UTC:
  tests:  10|2
 total_score: 45/70
 6fd7fdd
+Fri 19 Aug 2022 03:55:14 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:109:10: error: void value not ignored as it ought to be
+  109 |   return free(current);
+      |          ^~~~~~~~~~~~~
+list.c:110:1: error: control reaches end of non-void function [-Werror=return-type]
+  110 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+267dc81
